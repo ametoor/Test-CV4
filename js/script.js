@@ -1,6 +1,6 @@
 var lnStickyNavigation;
 
-$(document).ready(function()
+(document).ready(function()
 {
 	applyHeader();
 	applyNavigation();
