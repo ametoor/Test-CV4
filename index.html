@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<meta http-equiv="content-language" content="nl" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+	<title>Interactive Resume</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet" />
+
+
+	<!--[if lt IE 9]>
+			<script src="/view/js/html5shiv.js"></script>
+			<script src="/view/js/respond.min.js"></script>
+		<![endif]-->
+
+	<!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+		window.__insp = window.__insp || [];
+		__insp.push(['wid', 92785244]);
+		(function() {
+			function __ldinsp() {
+				var insp = document.createElement('script');
+				insp.type = 'text/javascript';
+				insp.async = true;
+				insp.id = "inspsync";
+				insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js';
+				var x = document.getElementsByTagName('script')[0];
+				x.parentNode.insertBefore(insp, x);
+			}
+			if (window.attachEvent) {
+				window.attachEvent('onload', __ldinsp);
+			} else {
+				window.addEventListener('load', __ldinsp, false);
+			}
+		})();
+	</script>
+	<!-- End Inspectlet Embed Code -->
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+	<div id="top" class="jumbotron" data-src="images/window_rain_animation.gif" data-position="bottom right">
+		<div class="container">
+			<h1>Amrinder Toor</h1>
+			<p class="lead">Interactive resume</p>
+		</div>
+
+		<div class="overlay"></div>
+
+		<a href="#profile" class="scroll-down">
+			<span class="glyphicon glyphicon-chevron-down"></span>
+		</a>
+	</div>
+
+	<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#profile">Profile</a></li>
+				<li><a href="#experiences">Experiences</a></li>
+				<li><a href="#abilities">Abilities</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<div class="background-white">
+		<div id="profile" class="container">
+			<h2>Profile</h2>
+			<p class="lead">I'm on my way to be a Web Developer</p>
+
+			<hr />
+
+			<div class="row">
+				<div class="col-md-4">
+					<h3>About me</h3>
+					<p>
+						I am an experienced professional with a diverse background in in technology and computer applications. I love coding in my free time. Also I
+						like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.
+					</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="images/Amrinder.png" alt="Amrinder Toor" width="246" height="246" />
+				</div>
+				<div class="col-md-4">
+					<h3>Details</h3>
+					<p>
+						<strong>Name:</strong><br />
+						Amrinder Singh Toor<br />
+						<strong>Age:</strong><br />
+						34 years<br />
+						<strong>Location:</strong><br />
+						Auckland, NewZealand
+					</p>
+
+					<a href="https://twitter.com/AmrinderToor10" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @pascalvgemert</a>
+					<script>
+						! function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0],
+								p = /^http:/.test(d.location) ? 'http' : 'https';
+							if (!d.getElementById(id)) {
+								js = d.createElement(s);
+								js.id = id;
+								js.src = p + '://platform.twitter.com/widgets.js';
+								fjs.parentNode.insertBefore(js, fjs);
+							}
+						}(document, 'script', 'twitter-wjs');
+					</script>
+				</div>
+			</div>
+
+			<!--<div class="text-center">
+				<p>Got inspired? Copied the theme? Or do you just like the website? No problem, just buy me a beer and make me happy!</p>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="BLUBUAMP4EQRJ">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</div>-->
+		</div>
+	</div>
+
+	<div id="experiences" class="container">
+		<h2>Experiences</h2>
+		<p class="lead">
+			&ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
+		</p>
+
+		<hr />
+
+		<!--<div class="alert alert-danger">
+	<strong>Looking for an awesome new challenge somewhere in the neighborhood of Den Bosch or Amsterdam as a Creative PHP Web Developer. </strong>
+</div>-->
+
+		<h3>Education</h3>
+
+
+		<div class="experiences">
+
+
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>N-TECH</h4>
+					<p class="experience-period">
+						Oct 2014 - Mar 2016
+					</p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Diploma in Computing - Level 7 (Specialization: Software)</strong>
+						<span class="hidden-phone">
+							The education was mainly C# based programing. Completed a project as part of Computing Level 7 Diploma by building a dummy website for a grocery store with C# as front end and SQL server as back end.
+						</span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								Auckland </span>
+						</span>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Punjab Technical University</h4>
+					<p class="experience-period">
+						Mar 2010 - Mar 2013
+					</p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Masters in Computer Application (Specialization: Software)</strong>
+						<span class="hidden-phone">
+							I got to brush up my knowledge on advanced topics in various programing languages like C, C++ and Java. Completed a 6-month industrial training as part of Masters program
+							by building the project "Centre Automation System" in ASP.NET with C# as front end and SQL server as back end.
+							 </span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								India </span>
+						</span>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Punjabi University</h4>
+					<p class="experience-period">
+						Mar 2007 -
+						Mar 2010 </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Bachelors in Computer Application (Specialization: Software)</strong>
+						<span class="hidden-phone">
+							I graduated from University , where I learned basics of programing languages including C, C++ and Java. As part of my bachelors did a 6 month training in developing web pages using Java and Eclipse.
+						</span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								India </span>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<h3>Careers</h3>
+
+
+		<div class="experiences">
+
+
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Mini Tankers | Onsite Diesel Refueling</h4>
+					<p class="experience-period">
+						April 2021 -
+						current </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Refueler</strong>
+						<span class="hidden-phone">
+							<ul>
+								<li>Provide all necessary and required fueling services as contracted by clientele, receiving, storing, transferring, and dispensing petroleum fuel product</li>
+								<li>Fuel and de-fuel vessels in adherence with plan requirements, inspecting all fueling equipment and vehicles and reporting malfunctions or inconsistencies as necessary </li>
+								<li>Complete and submit all documentation associated with fueling activities, interacting with carrier personnel and cross-functional teams as required</li>
+								<li>Respond to fuel emergencies utilizing emergency response cart and following all established environmental and company guidelines</li>
+							</ul>
+						</span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker">
+
+								</span>
+								Auckland
+							</span>
+
+
+							<span class="seperator">|</span>
+							<span class="link">
+								<span class="glyphicon glyphicon-link"></span>
+								<a href="https://www.minitankers.co.nz/" target="_blank">https://www.minitankers.co.nz/</a>
+							</span>
+
+
+						</span>
+					</p>
+				</div>
+			</div>
+
+			<div class="experience row">
+				<div class="col-md-4">
+					<h4>Nands Communication Ltd</h4>
+					<p class="experience-period">
+						Jun 2016 -
+						Jul 2020 </p>
+				</div>
+				<div class="col-md-8">
+					<p>
+						<strong>Lead Telecommunication Ltd</strong>
+						<span class="hidden-phone">
+							<ul>
+								<li>Installed, performed troubleshooting, and maintained all fibre optic systems in a variety of businesses, home, and various other organizations, designing fibre routes and working in fibre exchanges</li>
+								<li>Performed inspections to ensure fibre optic systems were without defect, conducting regular inspections of systems in order to locate and repair detected defects as necessary </li>
+								<li>Determined solutions for any issues preventing systems from performing optimally</li>
+								<li>Constructed proper splice cases, preparing and maintaining records, diagrams, and schematics relating to cases</li>
+
+							</ul>
+						</span>
+						<span class="experience-details">
+							<span class="location">
+								<span class="glyphicon glyphicon-map-marker"></span>
+								Auckland </span>
+							 </span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background-white">
+		<div id="abilities" class="container">
+			<h2>Abilities</h2>
+			<p class="lead">
+				"Life without knowledge is death in disguise."<br />- Talib Kweli
+			</p>
+
+			<hr />
+
+			<h3>Skills</h3>
+
+			<div class="row">
+
+
+				<div class="col-md-6">
+					<ul class="no-bullets">
+
+						<li>
+							<span class="ability-title">C#</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">Javascript</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">Java</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">C</span>
+							<span class="ability-score">
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+							</span>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+
+						<li>
+							<span class="ability-title">HTML</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+							</span>
+						</li>
+
+						<li>
+							<span class="ability-title">CSS</span>
+							<span class="ability-score">
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+							</span>
+						</li>
+
+						<li>
+							<span class="ability-title">Visual Studio</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+							</span>
+						</li>
+
+						<li>
+							<span class="ability-title">MySQL</span>
+							<span class="ability-score">
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+								<span class="glyphicon glyphicon-star "></span>
+
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div>
+
+
+			</div>
+
+			<hr />
+
+			<h3>Languages</h3>
+
+			<div class="row">
+
+
+				<div class="col-md-6">
+					<ul class="no-bullets">
+
+
+						<li>
+							<span class="ability-title">Punjabi (Mother tongue)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">English (Daily use)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+
+
+
+						<li>
+							<span class="ability-title">Hindi </span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+								<span class="glyphicon glyphicon-star filled"></span>
+								<span class="glyphicon glyphicon-star filled"></span>
+								<span class="glyphicon glyphicon-star filled"></span>
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">Fijian Hindi</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div>
+
+
+			</div>
+
+			<hr />
+
+			<h3>Tools</h3>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<ul class="no-bullets">
+
+						<li>
+							<span class="ability-title">MS Office (5+ years)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">Mac (5+ years)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+							</span>
+						</li>
+
+
+
+						<li>
+							<span class="ability-title">Notepad++ (3 years)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+							</span>
+						</li>
+
+
+
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+
+
+						<li>
+							<span class="ability-title">Internet Explore 10+ (8 years)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star "></span>
+
+
+							</span>
+						</li>
+
+						<li>
+							<span class="ability-title">Windows (10+ years)</span>
+							<span class="ability-score">
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+								<span class="glyphicon glyphicon-star filled"></span>
+
+
+							</span>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="background-gray">
+		<div id="contact" class="container">
+			<h2>Contact</h2>
+			<p class="lead">
+				"If I had asked people what they wanted, they would have said faster horses."<br />- Henry Ford
+			</p>
+
+			<hr />
+
+			<div class="row" style="width: 1000px;">
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<li>
+							<a href="https://twitter.com/AmrinderToor10" target="_blank">
+								<span class="icon icon-twitter"></span>
+								https://twitter.com/AmrinderToor10 </a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/amrinder-toor-8118341b4/" target="_blank">
+								<span class="icon icon-linkedin"></span>
+								https://www.linkedin.com/in/amrinder-toor-8118341b4/</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="no-bullets">
+						<!--<li>
+				<a href="javascript:void(0);">
+					<span class="icon icon-skype"></span>
+					pascalvgemert				</a>
+			</li>-->
+						<li>
+						<li>
+							<a href="mailto:amytoor.nz@gmail.com">
+								<span class="icon icon-email"></span>
+								amytoor.nz@gmail.com</a>
+						</li>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<!--<div class="text-center">
+				<iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button"
+					src="http://platform.twitter.com/widgets/tweet_button.c633b87376883931e7436b93bb46a699.en.html#_=1452458429192&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fwebcache.googleusercontent.com%2Fsearch%3Fq%3Dcache%3AcRExpd3vwGsJ%3Awww.pascalvangemert.nl%2F%2B%26cd%3D1%26hl%3Den%26ct%3Dclnk%26gl%3Dnl%26lr%3Dlang_nl%257Clang_en&amp;size=m&amp;text=Pascal%20van%20Gemert%20-%20Web%20Developer%20-%20Interactive%20Resume&amp;type=share&amp;url=http%3A%2F%2Fpascalvangemert.nl%2F%3Fref%3Dtwitter&amp;via=pascalvgemert"
+					style="position: static; visibility: visible; width: 62px; height: 20px;" data-url="http://pascalvangemert.nl/?ref=twitter"></iframe>
+				<script>
+					! function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0],
+							p = /^http:/.test(d.location) ? 'http' : 'https';
+						if (!d.getElementById(id)) {
+							js = d.createElement(s);
+							js.id = id;
+							js.src = p + '://platform.twitter.com/widgets.js';
+							fjs.parentNode.insertBefore(js, fjs);
+						}
+					}(document, 'script', 'twitter-wjs');
+				</script>
+
+				<iframe
+					src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpascalvangemert.nl%3Fref%3Dfacebook&amp;width=120&amp;height=21&amp;colorscheme=dark&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=143175172374579"
+					scrolling="no" frameborder="0" style="border:none; overflow:hidden;  width:120px; height:21px;" allowtransparency="true"></iframe>
+			</div>-->
+		</div>
+	</div>
+
+	<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Your browser is out of date</h4>
+				</div>
+				<div class="modal-body">
+					<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
+				</div>
+				<div class="modal-footer">
+					<a href="http://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="js/script.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-3361587-8']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+
+</html>
